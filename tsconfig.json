@@ -24,6 +24,6 @@
 
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist/*", "src/static"],
+  "exclude": ["node_modules"],
   "lib": ["es6"]
 }
