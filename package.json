@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.ts",
+    "start": "node index.ts",
     "build":"tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch":"tsc -w",
-    "dev": "nodemon ---watch \"src/**\" --ext \"ts,json\" ts-node --exec \"ts-node src/index.ts\""
+    "vercel-build":"echo ",
+    "dev": "nodemon ---watch --ext \"ts,json\" ts-node --exec \"ts-node index.ts\""
   },
   "keywords": [],
   "author": "",

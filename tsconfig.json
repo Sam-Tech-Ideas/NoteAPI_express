@@ -1,3 +1,32 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "esModuleInterop": true,
+//     "target": "es6",
+//     "moduleResolution": "Node",
+//     "removeComments": true,
+//     "sourceMap": false,
+
+//     "outDir": "./dist",
+//     "rootDir": "./src",
+//     "resolveJsonModule": true,
+
+//     "skipLibCheck": true,
+//     "allowJs": true,
+//     // "checkJs": true,
+
+//     "strict": false
+//   },
+//   "ts-node": {
+//     "esm": true,
+//     "experimentalSpecifierResolution": "node",
+//     "extensions": [".ts", ".js"]
+//   },
+//   "include": ["src", "index.ts"],
+//   "exclude": ["node_modules"],
+//   "lib": ["es6"]
+// }
+
 {
   "compilerOptions": {
     "module": "commonjs",
@@ -8,7 +37,7 @@
     "sourceMap": false,
 
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "resolveJsonModule": true,
 
     "skipLibCheck": true,
@@ -21,9 +50,8 @@
     "esm": true,
     "experimentalSpecifierResolution": "node",
     "extensions": [".ts", ".js"]
-
   },
-  "include": ["src"],
+  "include": ["src", "index.ts"],
   "exclude": ["node_modules"],
   "lib": ["es6"]
 }
